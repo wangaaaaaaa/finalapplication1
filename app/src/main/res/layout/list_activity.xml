@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+
+
+    <TextView
+        android:id="@+id/studentid1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_variant"
+        ></TextView>
+    <TextView
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:layout_below="@+id/studentid1"
+        ></TextView>
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:layout_below="@+id/password1"
+        ></TextView>
+    <TextView
+        android:id="@+id/sex1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textColor="@color/design_default_color_primary_variant"
+        android:layout_below="@+id/name1"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/major1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:layout_below="@id/sex1"></TextView>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
